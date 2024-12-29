@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Practical1 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.printf("Input your first name: ");
+        String fname = input.next();
+        System.out.printf("Input your last name: ");
+        String lname = input.next();
+        System.out.println();
+        System.out.println("Hello \n"+fname+" "+lname);
+    }
+    
+}
+
